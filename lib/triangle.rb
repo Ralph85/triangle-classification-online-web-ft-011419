@@ -25,5 +25,5 @@ class Triangle
 end
 
 class TriangleError < StandardError
-  # triangle error code
+  def initialize(isosceles,equilateral,scalene)
 end
